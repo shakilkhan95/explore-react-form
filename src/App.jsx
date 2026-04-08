@@ -1,4 +1,5 @@
 import './App.css'
+import ControlledForm from './components/ControlledForm'
 import FormAction from './components/FormAction'
 import SimpleForm from './components/SimpleForm'
 
@@ -10,6 +11,8 @@ function App() {
       <SimpleForm/>
       <br />
       <FormAction/>
+      <br />
+      <ControlledForm/>
     </>
   )
 }
