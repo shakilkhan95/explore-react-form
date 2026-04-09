@@ -1,5 +1,6 @@
 import './App.css'
 import ControlledForm from './components/ControlledForm'
+import CustomHook from './components/CustomHook'
 import FormAction from './components/FormAction'
 import SimpleForm from './components/SimpleForm'
 import UncontrolledForm from './components/UncontrolledForm'
@@ -16,6 +17,7 @@ function App() {
       <ControlledForm/>
       <br />
       <UncontrolledForm/>
+      <CustomHook/>
     </>
   )
 }

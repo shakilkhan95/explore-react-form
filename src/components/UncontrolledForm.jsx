@@ -11,6 +11,7 @@ const UncontrolledForm = () => {
     }
   return (
     <div>
+        <h1>Uncontrolled Form</h1>
         <form onSubmit={handleSubmit}>
             <input type="email" ref={emailRef} name="email" placeholder='Email' required />
             <br />
