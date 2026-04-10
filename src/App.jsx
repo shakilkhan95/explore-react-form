@@ -1,4 +1,5 @@
 import './App.css'
+import FamilyTree from './components/ContextApi/FamilyTree'
 import ControlledForm from './components/ControlledForm'
 import CustomHook from './components/CustomHook'
 import FormAction from './components/FormAction'
@@ -20,6 +21,7 @@ function App() {
       <UncontrolledForm/>
       <CustomHook/>
       <ProductManagement/>
+      <FamilyTree/>
     </>
   )
 }
